@@ -24,7 +24,7 @@ public class SecurityConfiguration {
         public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
                 http.cors().and()
                                 .authorizeHttpRequests(authorize -> authorize
-                                                .requestMatchers("/api/v1/account/login", "/api/v1/account/register/**",
+                                                .requestMatchers("/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**","/api/v1/account/login", "/api/v1/account/register/**",
                                                                 "/api/v1/career",
                                                                 "/api/v1/college", "/socket.io/**", "/ws/**",
                                                                 "/images/**")
