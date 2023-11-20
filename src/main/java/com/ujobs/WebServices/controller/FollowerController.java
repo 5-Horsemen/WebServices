@@ -18,7 +18,7 @@ import com.ujobs.WebServices.service.UserService;
 
 @RestController
 @RequestMapping("/api/v1/followers")
-@CrossOrigin(origins = "https://ujobs-frontend.netlify.app")
+
 public class FollowerController {
     private final FollowerService followerService;
     private final UserService userService;
