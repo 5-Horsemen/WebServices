@@ -19,6 +19,7 @@ import com.ujobs.WebServices.service.PrivateChatService;
 
 @RestController
 @RequestMapping("/api/v1/chats")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PrivateChatController {
 
     @Autowired

@@ -15,6 +15,7 @@ import com.ujobs.WebServices.service.StudentService;
 
 @RestController
 @RequestMapping("/api/v1/student")
+@CrossOrigin(origins = "http://localhost:4200")
 public class StudentController {
 
     @Autowired

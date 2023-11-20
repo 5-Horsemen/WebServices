@@ -21,6 +21,7 @@ import com.ujobs.WebServices.dto.PrivateMessageDto;
 import com.ujobs.WebServices.service.PrivateMessageService;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 public class PrivateMessageController {
 
     @Autowired

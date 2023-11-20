@@ -20,7 +20,7 @@ import com.ujobs.WebServices.repository.CollegeRepository;
 
 @RestController
 @RequestMapping("/api/v1")
-
+@CrossOrigin(origins = "http://localhost:4200")
 public class CollegeController {
 
     private final CollegeRepository collegeRepository;
