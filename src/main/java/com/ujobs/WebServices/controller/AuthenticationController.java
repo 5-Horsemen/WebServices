@@ -88,6 +88,9 @@ public class AuthenticationController {
         // }
     @Transactional
     @PostMapping("/login")
+    //url: http://localhost:8080/api/v1/account/login
+    // "email": "john.doe",
+    // "password": "mySecurePassword"
     public ResponseEntity<AuthenticationResponse> login(@RequestBody AuthenticationRequest request) {
         AuthenticationResponse loggedStudent = authentificationService.login(request);
         return new ResponseEntity<AuthenticationResponse>(loggedStudent, HttpStatus.OK);
