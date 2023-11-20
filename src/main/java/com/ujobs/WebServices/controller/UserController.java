@@ -22,7 +22,7 @@ import com.ujobs.WebServices.service.UserService;
 
 @RestController
 @RequestMapping("/api/v1/user")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ujobs-frontend.netlify.app")
 public class UserController {
 
     @Autowired

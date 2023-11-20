@@ -21,7 +21,7 @@ import com.ujobs.WebServices.dto.PrivateMessageDto;
 import com.ujobs.WebServices.service.PrivateMessageService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ujobs-frontend.netlify.app")
 public class PrivateMessageController {
 
     @Autowired
