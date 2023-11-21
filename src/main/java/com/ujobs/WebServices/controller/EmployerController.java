@@ -16,7 +16,7 @@ import com.ujobs.WebServices.service.EmployerService;
 
 @RestController
 @RequestMapping("/api/v1/employer")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ujobs-frontend.netlify.app")
 public class EmployerController {
     
     @Autowired
